@@ -1,0 +1,22 @@
+﻿<Window x:Class="Test_Case_Extractor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Welcome to Test Case Extractor" Height="666" Width="822" Loaded="Window_Loaded">
+    <Grid Width="817" Background="#FF375A79" Opacity="1" HorizontalAlignment="Left" Height="745">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="384*" />
+            <ColumnDefinition Width="284*" />
+        </Grid.ColumnDefinitions>
+        <Button Content="..." Height="23" HorizontalAlignment="Left" Margin="229,50,0,0" Name="btn_connect" VerticalAlignment="Top" Width="24" Click="btn_connect_Click" Grid.Column="1" />
+        <ComboBox Height="23" Visibility="Hidden" HorizontalAlignment="Right" Margin="0,170,99,0" Name="Sel_TPlan" VerticalAlignment="Top" Width="474" SelectionChanged="Sel_TPlan_SelectionChanged" Grid.ColumnSpan="2" />
+        <Label Content="Select a Test Plan" Visibility= "Hidden" Height="28" HorizontalAlignment="Left" Margin="12,165,0,0" Name="Lbl_TPlan" VerticalAlignment="Top" Width="128" BorderBrush="#E6191900" Foreground="AliceBlue" FontStyle="Italic" FontSize="13" />
+        <TreeView Height="381" HorizontalAlignment="Left" Margin="12,241,0,0" Name="treeView_suite" VerticalAlignment="Top" Width="691" Grid.ColumnSpan="2" SelectedItemChanged="treeView_suite_SelectedItemChanged" Background="#FF375A79" BorderBrush="#FF375A79" />
+        <Label Content="Below Test Suites have been identified. Please choose one of them and click Generate to proceed" Visibility="Hidden" Height="28" HorizontalAlignment="Left" Margin="12,207,0,0" Name="Lbl_TSuites" VerticalAlignment="Top" Width="560" Grid.ColumnSpan="2" Foreground="AliceBlue" FontStyle="Italic" FontSize="13" />
+        <Button Content="Generate" Height="24" Visibility="Hidden" HorizontalAlignment="Left" Margin="240,534,0,0" Name="Gen_Btn" VerticalAlignment="Top" Width="79" Click="Gen_Btn_Click" IsEnabled="True" Grid.Column="1" />
+        <Label Content="Connect to Team Foundation Server" Height="28" HorizontalAlignment="Left" Margin="12,45,0,0" Name="label1" VerticalAlignment="Top" Foreground="AliceBlue" FontStyle="Italic" FontSize="13" Width="220" />
+        <Label Content="Specify the path for new Excel Workbook" Height="28" HorizontalAlignment="Left" Margin="12,92,0,0" Name="label2" VerticalAlignment="Top" FontSize="13" FontStyle="Italic" Foreground="AliceBlue" />
+        <Button Content="..." Height="23" HorizontalAlignment="Left" Margin="275,95,0,0" Name="button1" VerticalAlignment="Top" Width="23" Grid.Column="1" Click="button1_Click" />
+        <TextBox Height="23" Margin="255,95,83,0" Name="File_Name" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="255,50,0,0" Name="TFS_Textbox" VerticalAlignment="Top" Width="432" Grid.ColumnSpan="2" IsReadOnly="True" />
+    </Grid>
+</Window>

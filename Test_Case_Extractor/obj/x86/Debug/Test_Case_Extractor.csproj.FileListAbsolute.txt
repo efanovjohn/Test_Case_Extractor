@@ -1,0 +1,8 @@
+H:\Test_Case_Extractor\Test_Case_Extractor\Test_Case_Extractor\obj\x86\Debug\Test_Case_Extractor.csprojResolveAssemblyReference.cache
+H:\Test_Case_Extractor\Test_Case_Extractor\Test_Case_Extractor\obj\x86\Debug\MainWindow.baml
+H:\Test_Case_Extractor\Test_Case_Extractor\Test_Case_Extractor\obj\x86\Debug\MainWindow.g.cs
+H:\Test_Case_Extractor\Test_Case_Extractor\Test_Case_Extractor\obj\x86\Debug\App.g.cs
+H:\Test_Case_Extractor\Test_Case_Extractor\Test_Case_Extractor\obj\x86\Debug\Test_Case_Extractor_MarkupCompile.cache
+H:\Test_Case_Extractor\Test_Case_Extractor\Test_Case_Extractor\obj\x86\Debug\Test_Case_Extractor.g.resources
+H:\Test_Case_Extractor\Test_Case_Extractor\Test_Case_Extractor\obj\x86\Debug\Test_Case_Extractor.Properties.Resources.resources
+H:\Test_Case_Extractor\Test_Case_Extractor\Test_Case_Extractor\obj\x86\Debug\Test_Case_Extractor.csproj.GenerateResource.Cache
